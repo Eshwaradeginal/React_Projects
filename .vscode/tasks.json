@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "install",
+			"path": "portfolio",
+			"group": "clean",
+			"problemMatcher": [],
+			"label": "npm: install - portfolio",
+			"detail": "install dependencies from package"
+		},
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "portfolio",
+			"problemMatcher": [],
+			"label": "npm: start - portfolio",
+			"detail": "react-scripts start",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
